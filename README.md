@@ -1,2 +1,2 @@
-# plane-classification
-Classify plane from pictures
+# Description
+This project is mean to classify plane from pictures.
