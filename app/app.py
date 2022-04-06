@@ -41,7 +41,7 @@ def load_model(path):
     return tf.keras.models.load_model(path)
     
 
-model = load_model('models/manufacturer.h5')
+model = load_model('../models/tensor_model.h5')
 model.summary()
 
 st.title("Identification d'avion")
