@@ -28,7 +28,7 @@ Cause of a bandwith problem the saved models are not there currently but they ar
 
 ## Publication 
 A first version is published here, and for the same reason it not yet take into account the models object. But you can clone the model and try it locally. 
-The first version is at the following: 
+The published version is available [here](https://share.streamlit.io/rich229/plane-classification/main/app/app.py)
 
 # Exemples
 Here are some examples
