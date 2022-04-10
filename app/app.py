@@ -12,7 +12,6 @@ import yaml
 
 print( )
 
-os.system("pip list ")
 
 
 
