@@ -12,8 +12,9 @@ import yaml
 
 #os.system("ls app/")
 
+print(os.getcwd())
 
-print(pathlib.Path("app.yaml").absolute())
+#print(pathlib.Path("app.yaml").absolute())
 
 
 #Load constantes
