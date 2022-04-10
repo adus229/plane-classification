@@ -84,7 +84,7 @@ def predict_image(path, model,type_model,classes_names=NONE):
             "all_prob": _prediction_vector
         } 
 
-@st.cache
+@st.cache(allow_output_mutation=True)
 def load_model(path,type_model):
     """Load tf/Keras model for prediction
     """
