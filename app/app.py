@@ -10,7 +10,7 @@ import pickle
 from PIL import Image
 import yaml 
 
-os.system("pip install -r requirements.txt")
+print(pathlib.Path(__file__).parents[1] )
 
 os.system("pip list ")
 
