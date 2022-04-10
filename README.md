@@ -1,5 +1,7 @@
 # Description
-This project is mean to classify plane from pictures.
+This project is meant to classify plane from pictures.
+It use three models, Neural networks, SVM and transfert learning approche.
+
  
 
 
@@ -13,6 +15,8 @@ Here are the contents of each notebook
 - [classification_neural_network_with_target](notebooks/classification_neural_network_with_target.ipynb): notebook of neural network with target
 - [classification_svm_with_target](notebooks/classification_svm_with_target.ipynb): notebook for the model of SVM, with a polynomial kernel density
 - [classification_transfert_learning_with_target](notebooks/classification_transfert_learning_with_target.ipynb): notebook of a transfert learning model 
+
+*The last third notebooks should be running in the listing order. In fact there is a comparison between each notebook which use the saved model of the previous*
 
 # Installation
 - clone the project
