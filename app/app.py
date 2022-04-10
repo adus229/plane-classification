@@ -19,7 +19,7 @@ import yaml
 
 
 #Load constantes
-with open(pathlib.Path(f"{pathlib.Path(__file__).parents[1]}/app/app.yaml"),'r') as config_file:
+with open(f"{pathlib.Path(__file__).parents[1]}/app/app.yaml",'r') as config_file:
     config = yaml.safe_load(config_file)
     IMAGE_WIDTH = config["image_width"]
     IMAGE_HEIGHT = config["image_height"]
@@ -117,7 +117,7 @@ with st.sidebar:
     models_path = pathlib.Path(MODELS_DIR/type_models)
 
     models_names = os.listdir(models_path) 
-    
+
     model_name_box = st.selectbox(
                     "Sélectionner le modèle",
                     models_names,
