@@ -1,0 +1,8 @@
+image_width: 128
+image_height: 128
+image_depth: 3
+neural_networks_dir_name: "neural_networks"
+svm_dir_name: "svms"
+transfert_learning_dir_name: "learning"
+classes_file_dir: ../models/classes
+models_dir: "../models"
