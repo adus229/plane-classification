@@ -10,7 +10,7 @@ import pickle
 from PIL import Image
 import yaml 
 
-os.system("ls app/")
+#os.system("ls app/")
 
 
 print(pathlib.Path("app.yaml").absolute())
