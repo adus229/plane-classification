@@ -10,6 +10,7 @@ import pickle
 from PIL import Image
 import yaml 
 
+os.system("ls ")
 
 #Load constantes
 with open("./app.yaml",'r') as config_file:
