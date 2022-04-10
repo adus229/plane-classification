@@ -12,8 +12,10 @@ import yaml
 
 os.system("ls app/")
 
+
+
 #Load constantes
-with open("./app.yaml",'r') as config_file:
+with open(pathlib.Path("app.yaml"),'r') as config_file:
     config = yaml.safe_load(config_file)
     IMAGE_WIDTH = config["image_width"]
     IMAGE_HEIGHT = config["image_height"]
