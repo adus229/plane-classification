@@ -114,8 +114,9 @@ with st.sidebar:
                             else "Transfert learning" 
     )
 
-    models_path = MODELS_DIR/type_models
+    models_path = pathlib.Path(MODELS_DIR/type_models)
     models_names = os.listdir(models_path) 
+    print(models_path)
     model_name_box = st.selectbox(
                     "Sélectionner le modèle",
                     models_names,
