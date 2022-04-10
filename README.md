@@ -32,6 +32,6 @@ The first version is at the following:
 
 # Exemples
 
-![](examples/ex1.png)
-![](examples/ex2.png)
+![With probabilities in bar](examples/ex1.png)
+![With probabilities in surface](examples/ex2.png)
 
