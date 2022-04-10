@@ -1,0 +1,8 @@
+data_dir: ../dataset/data
+data_train_file: "images_manufacturer_train.txt"
+data_test_file: "images_manufacturer_test.txt"
+models_dir: ../models
+image_height: 128
+image_width: 128
+image_depth: 3
+target_name: "manufacturer" 
