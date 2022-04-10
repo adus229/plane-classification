@@ -29,3 +29,7 @@ Cause of a bandwith problem the saved models are not there currently but they ar
 ## Publication 
 A first version is published here, and for the same reason it not yet take into account the models object. But you can clone the model and try it locally. 
 The first version is at the following: 
+
+# Exemples
+
+![first](examples/ex1.png)
