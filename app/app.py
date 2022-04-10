@@ -98,7 +98,7 @@ def load_model(path,type_model):
 st.set_page_config(layout="wide")
 col1,col2=st.columns([1,8])
 with col1:
-    st.image("./logo_plane.png")
+    st.image(f"{pathlib.Path(__file__).parents[0]}/logo_plane.png")
 with col2:
     st.title("Identification d'avion")
 
