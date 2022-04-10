@@ -6,7 +6,7 @@ This project is mean to classify plane from pictures.
 # Description of main files
 Here are the contents of each notebook
 - [notebooks/config.yaml](notebooks/config.yaml): configuration file to train and create the models
-- [app/config.yaml](app/config.yaml): configuration file to run the streamlit application
+- [app/app.yaml](app/app.yaml): configuration file to run the streamlit application
 - [data_download.ipynb](./notebooks/data_download.ipynb): is to download the database used, and place them in the appropriate code 
 - [train_classification_model.ipynb](notebooks/train_classification_model.ipynb): it is a draft of the model
 - [cleaned_train_classification_model.ipynb](notebooks/cleaned_train_classification_model.ipynb): is a cleaned version of the draft
