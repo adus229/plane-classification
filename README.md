@@ -31,7 +31,9 @@ A first version is published here, and for the same reason it not yet take into 
 The first version is at the following: 
 
 # Exemples
-
+Here are some examples
+* With probabilities in bar
 ![With probabilities in bar](examples/ex1.png)
+* With probabilities in surface
 ![With probabilities in surface](examples/ex2.png)
 
