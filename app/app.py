@@ -10,16 +10,15 @@ import pickle
 from PIL import Image
 import yaml 
 
-print( )
 
 
 
-
+ROOT_DIR = pathlib.Path(pathlib.Path(__file__).parents[1])
 
 
 
 #Load constantes
-with open(pathlib.Path(f"{pathlib.Path(__file__).parents[1]}/app/app.yaml"),'r') as config_file:
+with open(pathlib.Path(ROOT_DIR/"app/app.yaml"),'r') as config_file:
     config = yaml.safe_load(config_file)
     IMAGE_WIDTH = config["image_width"]
     IMAGE_HEIGHT = config["image_height"]
@@ -27,10 +26,8 @@ with open(pathlib.Path(f"{pathlib.Path(__file__).parents[1]}/app/app.yaml"),'r')
     NEURAL_NETWORKS_DIR_NAME= config["neural_networks_dir_name"]
     SVM_DIR_NAME= config["svm_dir_name"]
     TRANSERT_LEARNING_DIR_NAME=config["transfert_learning_dir_name"]
-    MODELS_DIR = pathlib.Path(config["models_dir"])
-    CLASSES_FILE_DIR = pathlib.Path(config["classes_file_dir"])
-
-
+    MODELS_DIR =  pathlib.Path(f"{ROOT_DIR}/{config['models_dir']}")
+    CLASSES_FILE_DIR = pathlib.Path(f"{ROOT_DIR}/{config['classes_file_dir']}")
 
 # Functions
 
