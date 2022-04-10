@@ -38,4 +38,4 @@ Here are some examples
 ![With probabilities in surface](examples/ex2.png)
 
 # References:
-More information on the images [here ](: https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/)
+More information on the images [here ](https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/)
