@@ -12,7 +12,7 @@ import yaml
 
 
 #Load constantes
-with open("app.yaml",'r') as config_file:
+with open("./app.yaml",'r') as config_file:
     config = yaml.safe_load(config_file)
     IMAGE_WIDTH = config["image_width"]
     IMAGE_HEIGHT = config["image_height"]
@@ -77,7 +77,7 @@ def predict_image(path, model,type_model,classes_names=NONE):
             "all_prob": _prediction_vector
         } 
 
-@st.cache()
+@st.cache
 def load_model(path,type_model):
     """Load tf/Keras model for prediction
     """
