@@ -114,7 +114,8 @@ with st.sidebar:
     )
 
     models_path = MODELS_DIR/type_models
-    models_names = os.listdir(models_path) 
+    print(models_path)
+    models_names = os.listdir(pathlib.Path(models_path)) 
     model_name_box = st.selectbox(
                     "Sélectionner le modèle",
                     models_names,
