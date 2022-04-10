@@ -32,4 +32,6 @@ The first version is at the following:
 
 # Exemples
 
-![first](examples/ex1.png)
+![](examples/ex1.png)
+![](examples/ex2.png)
+
