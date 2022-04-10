@@ -10,11 +10,13 @@ import pickle
 from PIL import Image
 import yaml 
 
-os.system("pip list ../")
+os.system("pip install -r requirements.txt")
+
+os.system("pip list ")
 
 
 
-os.system("python --version")
+
 
 
 #Load constantes
