@@ -13,6 +13,8 @@ import yaml
 os.system("ls app/")
 
 
+print(pathlib.Path("app.yaml").absolute())
+
 
 #Load constantes
 with open(pathlib.Path("app.yaml"),'r') as config_file:
