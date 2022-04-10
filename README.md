@@ -2,8 +2,10 @@
 This project is mean to classify plane from pictures.
 
 # Installation
-- Clone the project
-- create new virtual env( not mandatory)
+- clone the project
+- create new virtual env( not mandatory but recommanded)
+- install all the requirement dependencies from the requirement file
+    ```pip install -r requirements.txt```
 
 
 
