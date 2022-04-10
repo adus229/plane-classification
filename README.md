@@ -7,12 +7,12 @@ This project is mean to classify plane from pictures.
 Here are the contents of each notebook
 - [notebooks/config.yaml](notebooks/config.yaml): configuration file to train and create the models
 - [app/app.yaml](app/app.yaml): configuration file to run the streamlit application
-- [data_download.ipynb](./notebooks/data_download.ipynb): is to download the database used, and place them in the appropriate code 
-- [train_classification_model.ipynb](notebooks/train_classification_model.ipynb): it is a draft of the model
-- [cleaned_train_classification_model.ipynb](notebooks/cleaned_train_classification_model.ipynb): is a cleaned version of the draft
-- [classification_neural_network_with_target](notebooks/classification_neural_network_with_target.ipynb): is the notebook of neural network with target
-- [classification_svm_with_target](notebooks/classification_svm_with_target.ipynb):the notebook for the model of SVM, with a polynomial kernel density
-- [classification_transfert_learning_with_target](notebooks/classification_transfert_learning_with_target.ipynb): a notebook of a transfert learning model 
+- [data_download.ipynb](./notebooks/data_download.ipynb): download the database used, and place them in the appropriate code 
+- [train_classification_model.ipynb](notebooks/train_classification_model.ipynb): draft 
+- [cleaned_train_classification_model.ipynb](notebooks/cleaned_train_classification_model.ipynb): cleaned version of the draft
+- [classification_neural_network_with_target](notebooks/classification_neural_network_with_target.ipynb): notebook of neural network with target
+- [classification_svm_with_target](notebooks/classification_svm_with_target.ipynb): notebook for the model of SVM, with a polynomial kernel density
+- [classification_transfert_learning_with_target](notebooks/classification_transfert_learning_with_target.ipynb): notebook of a transfert learning model 
 
 # Installation
 - clone the project
