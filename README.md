@@ -1,6 +1,11 @@
 # Description
 This project is mean to classify plane from pictures.
 
+# Installation
+- Clone the project
+- create new virtual env( not mandatory)
+
+
 
 # File
 Here are the contents of each notebook
@@ -11,3 +16,4 @@ Here are the contents of each notebook
 - [classification_neural_network_with_target](notebooks/classification_neural_network_with_target.ipynb) is the notebook of neural network with target
 - [classification_svm_with_target](notebooks/classification_svm_with_target.ipynb) is the notebook for the model of SVM, with a polynomial kernel density
 - [classification_transfert_learning_with_target](notebooks/classification_transfert_learning_with_target.ipynb) is a notebook of a transfert learning model 
+
