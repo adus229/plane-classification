@@ -15,6 +15,8 @@ import yaml
 
 ROOT_DIR = pathlib.Path(pathlib.Path(__file__).parents[1])
 
+print(ROOT_DIR)
+
 
 
 #Load constantes
