@@ -10,11 +10,11 @@ import pickle
 from PIL import Image
 import yaml 
 
-os.system("ls ../")
+os.system("pip list ../")
 
 
 
-print(pathlib.Path("./app.yaml").absolute())
+os.system("python --version")
 
 
 #Load constantes
