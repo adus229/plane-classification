@@ -10,7 +10,7 @@ import pickle
 from PIL import Image
 import yaml 
 
-print(pathlib.Path(__file__).parents[1] )
+print( )
 
 os.system("pip list ")
 
@@ -20,7 +20,7 @@ os.system("pip list ")
 
 
 #Load constantes
-with open(pathlib.Path(r"app.yaml"),'r') as config_file:
+with open(pathlib.Path(f"{pathlib.Path(__file__).parents[1]}/app/app.yaml"),'r') as config_file:
     config = yaml.safe_load(config_file)
     IMAGE_WIDTH = config["image_width"]
     IMAGE_HEIGHT = config["image_height"]
