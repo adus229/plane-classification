@@ -130,5 +130,5 @@ dmypy.json
 
 data_raw/
 data_fgvc/
-models/ *h5
-models/*.joblib
+*.h5
+*.joblib
