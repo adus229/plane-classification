@@ -1,0 +1,13 @@
+# Placeholder for app configuration (if needed by your deployment platform).
+app:
+  name: plane-classifier
+  entry: streamlit_app.py
+image_width: 128
+image_height: 128
+image_depth: 3
+neural_networks_dir_name: "neural_networks"
+svm_dir_name: "svms"
+transfert_learning_dir_name: "learning"
+classes_file_dir: models/classes
+models_dir: "models"
+data_url: "https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/archives/fgvc-aircraft-2013b.tar.gz"
